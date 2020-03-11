@@ -4,12 +4,12 @@ def position_taken?(board, index)
     !(board[index] == " " || board[index] == "" || board[index] == nil)
 end
 
-#accepts a board and an index to 
+#accepts a board and an index to
 #check; if the move is valid ==> true:
 #Present on the game board.
 #Not already filled with a token.
 
-#==> false or nil if not valid 
+#==> false or nil if not valid
 #Not present on the game board
 #Already filled with a token
 
